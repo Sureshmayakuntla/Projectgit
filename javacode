@@ -11,9 +11,19 @@ public class PrimeExample{
      System.out.println(n+" is not prime number");      
      flag=1;      
      break;      
-    }      
-   }      
    if(flag==0)  { System.out.println(n+" is prime number"); }  
   }//end of else  
 }    
+}
+import java.lang.Math;   
+public class RandomNumberExample1  
+{   
+public static void main(String args[])   
+{   
+// Generating random numbers  
+System.out.println("1st Random Number: " + Math.random());   
+System.out.println("2nd Random Number: " + Math.random());  
+System.out.println("3rd Random Number: " + Math.random());   
+System.out.println("4th Random Number: " + Math.random());   
+}   
 }
